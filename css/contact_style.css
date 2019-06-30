@@ -1,0 +1,217 @@
+/*=====================
+Import Stuff
+=====================*/
+@import url('https://fonts.googleapis.com/css?family=Gruppo|Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:200&display=swap');
+
+
+*{
+	padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 80px;
+}
+
+/*=============================
+phone number of the company
+=============================*/
+.phone {
+    width: 90%;
+	height: 500px;
+    margin: auto;
+}
+
+.phone img {
+    width: 100%;
+    height: 450px;
+}
+
+.phone div {
+    width: 100%;
+    height: 50px;
+    background: #1C3F94;    
+    padding: 0px 100px;
+    line-height: 50px;
+}
+
+.phone div p{
+    float: left;
+    width: 30%;
+    height: 100%;
+    font-size: 22px;
+    color: #efefef;
+    font-family: 'open sans';
+}
+
+.phone ul{
+    list-style-type: none;
+    height: 100%;
+    float: right;
+}
+
+.phone ul li{   
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.phone ul li button{
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+    background: none;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: #efefef;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+
+.phone ul li button:hover{
+    border-bottom: solid 3px #efefef;
+    color: #007ACC;
+}
+
+/*========================
+    Locate us text and 
+    connect with us text
+==========================*/
+.locate_us,.connect_with_us {
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.locate_us h1,.connect_with_us h1 {
+    font-size: 42px;
+    padding: 10px;
+    height: 50%;
+    font-family: 'open sans';
+    color: #1C3F94;
+}
+
+.locate_us p,.connect_with_us p {
+    padding: 10px;
+    height: 50%;
+    font-size: 24px;
+    color: #656565;
+    font-family: 'catamaran';
+}
+
+/*==========================
+    Location of the company
+===========================*/
+.location {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.418);
+}
+
+#map {
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+
+#map img {
+    width:100%;
+    height: 100%;
+}
+
+.description {
+	width: 30%;
+    height: 100%;
+    background: #fff;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description img {
+    height: 40%;
+    width: 100%;
+}
+
+.description > p {
+    height: 20%;
+    width: 100%;
+    font-family: 'catamaran';
+    font-size: 1.5em;
+    text-align: center  ;
+    color: #000;
+    padding: 50px 20px 20px 20px;
+}
+
+.description ul {
+    height: 40%;
+    width: 100%;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.description ul li {
+    display: inline-block;
+    width: 40%;
+    margin-left: 7%;
+    padding: 5px;
+    height: 200px;
+    font-size: 16px;
+    font-family: 'open sans';
+    font-weight: 200;
+}
+
+.description ul li div {
+    height: 40%;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 50%;
+    font-size: 1em;
+    margin: auto;
+    line-height: 90px;
+    border-radius: 25%;
+    background: #007ACC;
+}
+
+.description ul li p {
+    height: 50%;
+    font-family: 'open sans';
+    font-size: 1em;
+    text-align: center;
+    color: #556565;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+/*=============================
+Social media
+=============================*/
+.social_media {
+	width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.social_media ul {
+	width: 100%;
+    height: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+.social_media ul li{
+    width: 100px;
+    height: 100px;
+	display: inline-block;
+    border-radius: 50%;
+    background: #007ACC;
+    margin-left: 50px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+}

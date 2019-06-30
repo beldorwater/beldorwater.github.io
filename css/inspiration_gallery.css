@@ -1,0 +1,76 @@
+/*=====================
+Import Stuff
+=====================*/
+@import url('https://fonts.googleapis.com/css?family=Gruppo|Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:200&display=swap');
+
+
+*{
+	padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 95%;
+    padding-top: 80px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+main h2 {
+    font-size: 38px;
+    font-family: 'catamaran';
+    text-align: center;
+    color: #1C3F94;
+    padding: 5px;
+}
+
+.slideshow {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 100px;
+}
+
+.slideshow img{ 
+    height: 100%;
+    width: 100%;
+}
+
+.slide1 {
+    width: 35%;
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+}
+
+.slide2 {
+    width: 63%;
+    height: 100%;
+    float: left;
+}
+
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.gallery-img{
+    flex-basis: 32%;
+    margin-top: 16px;
+    margin-left: 16px;
+    transition: transform .2s; /* Animation */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.329);
+}
+
+.gallery-img:hover {
+    transform: scale(1.04); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.gallery-img img{
+    height: 100%;
+    width: 100%;
+}

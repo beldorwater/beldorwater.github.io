@@ -1,0 +1,180 @@
+/*=============================
+    Import Stuff
+=============================*/
+    @import url('https://fonts.googleapis.com/css?family=Gruppo|Poiret+One&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Catamaran:200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    visibility: none;
+    content: " ";
+}
+
+/*================
+Header
+===============*/
+header {
+    z-index: 99;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.432) 2px 0.32px;
+    top: 0px;
+    background: #fff;
+}
+
+.header-wrapper {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.wrapper-h1{
+    width: 11%;
+    float: left;
+    text-align: right;
+    color: red;
+    height: 100%;
+    font-family: 'Gruppo', 'catamaran', 'serif';
+    line-height: 80px;
+}
+
+.wrapper-h1 > img {
+    height: 100%;
+    width: 100%;
+}
+
+.seperator {
+    width: 2%;
+    float: left;
+    display: block;
+    text-align: right;
+    font-size: 1.5em;
+    color: #1C3F94;	
+    line-height: 80px;
+}
+
+/*==================
+Navigation bar
+=================*/
+nav {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    line-height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    height: 100%;
+}
+
+nav li {
+    margin-left: 15px;
+    font-family: helvetica;
+    display: inline-block;
+    line-height: 80px;
+    text-align: left;
+}
+
+nav li:hover {
+    line-height: 72px;/*not the same as the header height because i want the hover underline to show up in the header*/
+    border-bottom: solid 3px #007ACC;
+}
+
+nav a {
+    color: #1C3F94;
+    font-size: 1em;
+    font-family: 'catamaran';
+    text-decoration: none;
+    font-weight: bold;
+    height: 100%;
+}
+
+nav a:hover {
+    color: #007ACC;
+}
+
+
+/*=================
+Search Area
+================*/
+.search_area {
+    float: left;
+    width: 37%;
+    height: 100%;
+    margin: auto;
+    line-height: 80px;
+}
+
+.search_area ul {
+    list-style-type: none;
+    height: 100%;
+    text-align: right;
+}
+
+.search_area li {
+    padding-top: 5px;
+    margin-left: 20px;
+    display: inline-block;
+    line-height: 80px;
+    text-align: right;
+}
+
+.search_area li:hover {
+    height: 80px;/*not the same as the header height because i want the hover underline to show up in the header*/
+    border-bottom: solid 3px #007ACC;
+}
+
+.search_hover{
+    /* figure this code out */
+}
+
+.inspiration_button {
+    position: fixed;
+    top: 300px;
+    right: -80px;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 0px 0px 30px 30px;
+    height: 50px;
+    width: 200px;
+    transform: rotate(90deg);
+    background: #DC2121;
+    border: none; 
+    writing-mode: vertical-rl;
+}
+
+.inspiration_button:hover {
+    background: #1C3F94;
+}
+
+
+
+.search_area a {
+    color: #1C3F94;
+    font-size: 1em;
+    font-family: 'catamaran';
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search_area a:hover {
+    color: #007ACC;
+}
+

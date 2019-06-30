@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Beldor Shopping Cart</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/header_style.css">
+    <link rel="stylesheet" href="../css/footer_style.css">
+    <script src="https://kit.fontawesome.com/7470bacc54.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="tps://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+    <header > 
+        <div class="header-wrapper clearfix">
+            <!-- header logo -->
+            <div class="wrapper-h1">
+                <img src="images/beldor_logo.png" alt="beldor mineral water logo">
+            </div>
+            <!-- sepertor -->
+            <div class="seperator">
+                <h1>|</h1>
+            </div>
+            <!-- navigation bar --> 
+            <nav> 
+                <ul> 
+                    <li><a href="../index.html">HOME</a></li> 
+                    <li><a href="../product.html">PRODUCTS</a></li> 
+                    <li><a href="../buy_now.html">BUY NOW</a></li> 
+                    <li><a href="../contacts.html">CONTACT</a></li> 
+                    <li><a href="../about_us.html">ABOUT US</a></li> 
+                </ul>
+            </nav> 
+            <!-- search box (contains search,userprofile and notification buttons) --> 
+            <div class="search_area"> 
+                <ul> 
+                    <li><a href="#"><i class="material-icons">search</i></i></a> </li>
+                    <li><a href="../sign_in.html"><i class="material-icons">person_outline</i></i></a> </li>
+                    <li><a href="cart_final/index.html"><i class="material-icons">shopping_cart</i></i></a> </li>
+                    <li><a href="#"><i class="material-icons">notifications_none</i></i></a> </li>
+                </ul>
+            </div>  
+        </div> 
+    </header>
+
+
+
+    <main>
+        
+        <!-- inspiration button -->
+        <a href="../inspiration_gallery.html"><button class="inspiration_button">Inspiration</button></a>
+        <div class="ml_375" >
+
+
+       
+        <h1 class="cart_heading_txt" style="align-content: center">Shopping Cart</h1>
+
+        <div style="margin:20px;">
+            <table border="1" class="cart_list_table">
+                <tr>
+                    <th>Item</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Beldor Mineral Water 375ml </td>
+                    <td><button class="add-product" onclick="addProduct(0)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Beldor Mineral Water 500ml</td>
+                    <td><button class="add-product" onclick="addProduct(1)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Beldor Mineral Water 1L</td>
+                    <td><button class="add-product" onclick="addProduct(2)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Beldor Mineral Water 1.5L</td>
+                    <td><button class="add-product" onclick="addProduct(3)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Beldor Mineral Water 7L</td>
+                    <td><button class="add-product" onclick="addProduct(4)">Add</button></td>
+                </tr>
+                <tr>
+                    <td>Beldor Mineral Water 25L</td>
+                    <td><button class="add-product" onclick="addProduct(5)">Add</button></td>
+                </tr>
+
+
+            </table>
+            <!-- <select id="addSelect" >
+      <option value="0">Beldor Mineral Water 1.5L</option>
+      <option value="1">Beldor Mineral Water 7.0L</option>
+      <option value="1">Beldor Mineral Water 25.0L</option>
+    </select>
+    <button class="add-product">
+        Add Item
+    </button> -->
+        </div>
+
+        <div class="shopping-cart">
+
+            <div class="column-labels">
+                <label class="product-image">Image</label>
+                <label class="product-details">Product</label>
+                <label class="product-price">Price</label>
+                <label class="product-quantity">Quantity</label>
+                <label class="product-removal">Remove</label>
+                <label class="product-line-price">Total</label>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/375ml-2.png">
+                </div>
+                <div class="product-details">
+                    <div class="product-title">Beldor Mineral Water 375ml</div>
+                    <p class="product-description">The best purified water of all time. Your family deserves the best give them a threat, the Beldor way!.</p>
+                </div>
+                <div class="product-price">15.50</div>
+                <div class="product-quantity">
+                    <input type="number" value="1" min="1">
+                </div>
+                <div class="product-removal">
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+                <div class="product-line-price">15.50</div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/500ml-2.png">
+                </div>
+                <div class="product-details">
+                    <div class="product-title">Beldor Mineral Water 25.0L</div>
+                    <p class="product-description">The best purified water of all time. Your family deserves the best give them a threat, the Beldor way!.</p>
+                </div>
+                <div class="product-price">15.50</div>
+                <div class="product-quantity">
+                    <input type="number" value="1" min="1">
+                </div>
+                <div class="product-removal">
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+                <div class="product-line-price">15.50</div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/1L-2.png">
+                </div>
+                <div class="product-details">
+                    <div class="product-title">Beldor Mineral Water 1L</div>
+                    <p class="product-description">The best purified water of all time. Your family deserves the best give them a threat, the Beldor way!.</p>
+                </div>
+                <div class="product-price">15.50</div>
+                <div class="product-quantity">
+                    <input type="number" value="1" min="1">
+                </div>
+                <div class="product-removal">
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+                <div class="product-line-price">15.50</div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/1.5L-2.png">
+                </div>
+                <div class="product-details">
+                    <div class="product-title">Beldor Mineral Water 1.5L</div>
+                    <p class="product-description">The best purified water of all time. Your body deserves the best give it a threat the Beldor way!.</p>
+                </div>
+                <div class="product-price">2.8</div>
+                <div class="product-quantity">
+                    <input type="number" value="1" min="1">
+                </div>
+                <div class="product-removal">
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+                <div class="product-line-price">2.8</div>
+            </div>
+
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/7L-2.png">
+                </div>
+                <div class="product-details">
+                    <div class="product-title">Beldor Mineral Water 7.0L</div>
+                    <p class="product-description">The best purified water of all time. Your friends deserves the best give it a threat them well, the Beldor way!.</p>
+                </div>
+                <div class="product-price">8.99</div>
+                <div class="product-quantity">
+                    <input type="number" value="1" min="1">
+                </div>
+                <div class="product-removal">
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+                <div class="product-line-price">8.99</div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/25l-2.png">
+                </div>
+                <div class="product-details">
+                    <div class="product-title">Beldor Mineral Water 25.0L</div>
+                    <p class="product-description">The best purified water of all time. Your family deserves the best give them a threat, the Beldor way!.</p>
+                </div>
+                <div class="product-price">15.50</div>
+                <div class="product-quantity">
+                    <input type="number" value="1" min="1">
+                </div>
+                <div class="product-removal">
+                    <button class="remove-product">
+                        Remove
+                    </button>
+                </div>
+                <div class="product-line-price">15.50</div>
+            </div>
+
+            <div class="totals">
+                <div class="totals-item">
+                    <label>Subtotal</label>
+                    <div class="totals-value" id="cart-subtotal">71.97</div>
+                </div>
+                <div class="totals-item">
+                    <label>Tax (5%)</label>
+                    <div class="totals-value" id="cart-tax">3.60</div>
+                </div>
+                <div class="totals-item">
+                    <label>Shipping</label>
+                    <div class="totals-value" id="cart-shipping">15.00</div>
+                </div>
+                <div class="totals-item totals-item-total">
+                    <label>Grand Total</label>
+                    <div class="totals-value" id="cart-total">90.57</div>
+                </div>
+            </div>
+
+            <button class="checkout">Checkout</button>
+
+        </div>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+
+        <script src="./script.js"></script>
+
+    </main>
+
+
+<!-- Footer --> 
+    <!-- quick links -->
+    <section class="section-links">
+        <div class="wrapper-footer">
+            <ul>
+                <li class="first_child">ABOUT US</li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Our Goal</a></li>
+            </ul>
+            <ul>
+                <li class="first_child">PRODUCTS</li>
+                <li><a href="#">375ml bottle</a></li>
+                <li><a href="#">500ml bottle</a></li>
+                <li><a href="#">1 Liter bottle</a></li>
+                <li><a href="#">1.5 Liters bottle</a></li>
+                <li><a href="#">7 Liters bottle</a></li>
+                <li><a href="#">25 Liters bottle</a></li>
+            </ul>
+            <ul>
+                <li class="first_child">CONTACTS</li>
+                <li><a href="#">Tel. Number</a></li>
+                <li><a href="#">Location Map</a></li>
+                <li><a href="#">Social Media Links</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- legal info and social media links -->
+    <footer>
+        <div class="footer_bottom">
+            <div class="copyright">
+                    <div id="copyright_text">
+                        <p>Copyright&copy;1995-2019 BELDOR All Rights Reserved.</p>
+                        <p>This website is best viewed using Microsoft Internet Explorer 9 or higher, and/or latest version of Google Chrome and Mozila Firefox browsers.</p>
+                    </div>
+                    <div id="copyright_flag">
+                        <p>GHANA/ENGLISH</p> 
+                    </div>
+            </div>
+            <div class="sm">
+                <ul>
+                    <li><button href="#" class="facebook"><i class="fab fa-facebook-f"></i></button></li>
+                    <li><button href="#" class="envelope"><i class="far fa-envelope"></i></button></li>
+                    <li><button href="#" class="twitter"><i class="fab fa-twitter"></i></button></li>
+                    <li><button href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></button></li>
+                </ul>
+                <p>Follow Us : </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

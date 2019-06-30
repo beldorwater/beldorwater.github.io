@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Beldor Water | Pure & Refreshing</title>
+</head> 
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="css/homepage_style.css"> 
+<link rel="stylesheet" type="text/css" href="css/header_style.css"> 
+<link rel="stylesheet" type="text/css" href="css/footer_style.css"> 
+<script src="https://kit.fontawesome.com/7470bacc54.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="tps://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body> 
+<!-- PAGE HEADER (the header contains the search button, user profile button and the navigation bar)--> 
+    <header > 
+        <div class="header-wrapper clearfix">
+            <!-- header logo -->
+            <div class="wrapper-h1">
+                <img src="images/beldor_logo.png" alt="beldor mineral water logo">
+            </div>
+            <!-- sepertor -->
+            <div class="seperator">
+                <h1>|</h1>
+            </div>
+            <!-- navigation bar --> 
+            <nav> 
+                <ul> 
+                    <li><a href="index.html">HOME</a></li> 
+                    <li><a href="product.html">PRODUCTS</a></li> 
+                    <li><a href="buy_now.html">BUY NOW</a></li> 
+                    <li><a href="contacts.html">CONTACT</a></li> 
+                    <li><a href="about_us.html">ABOUT US</a></li> 
+                </ul>
+            </nav> 
+            <!-- search box (contains search,userprofile and notification buttons) --> 
+            <div class="search_area"> 
+                <ul> 
+                    <li><a href="#"><i class="material-icons">search</i></i></a> </li>
+                    <li><a href="sign_in.html"><i class="material-icons">person_outline</i></i></a> </li>
+                    <li><a href="cart_final/index.html"><i class="material-icons">shopping_cart</i></i></a> </li>
+                    <li><a href="#"><i class="material-icons">notifications_none</i></i></a> </li>
+                </ul>
+            </div>	
+        </div> 
+    </header>
+    
+    <main>
+
+        <!-- inspiration button -->
+        <a href="inspiration_gallery.html"><button class="inspiration_button">Inspiration</button></a>
+        <div class="ml_375" >
+            
+        <!-- Image Sideshow Slideshow -->
+	    <section class="image_slideshow">
+            <img class="mySlides" src="images/beldor_banner2-2.jpg">
+            <img class="mySlides" src="images/beldor_banner.jpg">
+            <a href="#">LEARN MORE</a>			
+        </section>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 5000); // Change image every 2 seconds
+            }
+        </script>
+        
+        <div class="page_container clearfix">
+            
+            <!-- Explore -->
+            <section class="cases">	
+                <h1 id="Explore">OUR INSPIRATION</h1>
+                <div class="cases_container clearfix">
+                    <div class="cases_pic">
+                        <img src="images/chemical_test.jpg">
+                        <p>Our nutrient-rich water source go through series of test to make sure quality is assured.</p>
+                    </div>
+                    <div class="cases_pic">
+                        <img src="images/water_machine.png">
+                        <p class="p2">Each bottle is processed under quality and hygienic condition.</p>
+                    </div>
+                    <div class="cases_pic">
+                        <img src="images/bottles_lined_up.jpg">
+                        <p>We offer nicely packaged bottles, suitable for every purpose.</p>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Article -->
+            <article class="clearfix">
+                <h1>
+                    BELDOR NATURAL MINERAL WATER
+                </h1>
+                <div class="clearfix">
+                    <img src="images/beldor_splash.png">
+                    <p>
+                        Get the most out of every day with the pure, crisp taste of <span style="color: #000;font-weight: bold">BELDOR®</span> water. <span style="color: #000;font-weight: bold">BELDOR®</span> combines the process of reverse osmosis filtration with a proprietary blend of minerals to create fresh, clean, and premium tasting water that is pure and delicious.
+                    </p>	
+                </div>
+            </article>
+    
+    
+            <section class="clearfix gallery">
+                <h1>WE MAKE PEOPLE HAPPY</h1>
+                <div class="div1 clearfix">
+                    <img src="images/happy_customer.jpg" style="float: right;">
+                    <p style="float: left;">
+                        <strong>Portable and Affordable</strong><br>
+                        <span style="color: red;font-weight: bold">BELDOR®</span> mineral water can be easily carried around without any difficulties. It is spread accross the market for easy
+                        access. You can easily put it in your homes and offices, your children lunch boxes and also in your cars. Each bottle is filled with great natural taste at affordable price.
+                    </p>	
+                </div>
+                <div class="div2 clearfix">
+                    <img src="images/beldor_truck.png" style="float: left;">
+                    <p style="float: right;">
+                        <strong>Good Customer Care And Fast Delivery</strong><br>
+                        <span style="color: red;font-weight: bold">BELDOR®</span> mineral water provide a good relationship between employees and customers. Workers are trained ethically on the ways
+                        and manner to communicate with the customers and always put smiles on their faces.We also provide a quick and fast delivery
+                        services to your various homes, workplaces, schools and other places on time.
+                    </p>	
+                </div>
+            </section>
+            
+            <!-- Article - we are here to help -->
+            <article class="help clearfix">
+                <h1>We're here to help you </h1>
+                <p>With <span style="color: red;font-weight: bold">BELDOR® Mineral Water</span>, life is enjoyable. <br>Buy from the best brand and stay hydrated.</p>	 
+            </article>
+    
+        </div>
+    </main>
+
+
+<!-- Footer -->	
+	<!-- quick links -->
+    <section class="section-links">
+        <div class="wrapper-footer">
+            <ul>
+                <li class="first_child">ABOUT US</li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Our Goal</a></li>
+            </ul>
+            <ul>
+                <li class="first_child">PRODUCTS</li>
+                <li><a href="#">375ml bottle</a></li>
+                <li><a href="#">500ml bottle</a></li>
+                <li><a href="#">1 Liter bottle</a></li>
+                <li><a href="#">1.5 Liters bottle</a></li>
+                <li><a href="#">7 Liters bottle</a></li>
+                <li><a href="#">25 Liters bottle</a></li>
+            </ul>
+            <ul>
+                <li class="first_child">CONTACTS</li>
+                <li><a href="#">Tel. Number</a></li>
+                <li><a href="#">Location Map</a></li>
+                <li><a href="#">Social Media Links</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- legal info and social media links -->
+    <footer>
+        <div class="footer_bottom">
+            <div class="copyright">
+                    <div id="copyright_text">
+                        <p>Copyright&copy;1995-2019 <span style="color: red;font-weight: bold">BELDOR®</span> All Rights Reserved.</p>
+                        <p>This website is best viewed using Microsoft Internet Explorer 9 or higher, and/or latest version of Google Chrome and Mozila Firefox browsers.</p>
+                    </div>
+                    <div id="copyright_flag">
+                        <img src="images/ghana_flag.png" alt="alternate text"/>
+                        <p>GHANA/ENGLISH</p> 
+                    </div>
+            </div>
+            <div class="sm">
+                <ul>
+                    <li><button href="#" class="facebook"><i class="fab fa-facebook-f"></i></button></li>
+                    <li><button href="#" class="envelope"><i class="far fa-envelope"></i></button></li>
+                    <li><button href="#" class="twitter"><i class="fab fa-twitter"></i></button></li>
+                    <li><button href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></button></li>
+                </ul>
+                <p>Follow Us : </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

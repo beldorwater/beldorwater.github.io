@@ -1,0 +1,102 @@
+/*about us styling*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h2{	
+	color:#1c3f94;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 80px;
+	font-family: 'open sans';
+	padding-bottom: 40px;
+}
+
+main{
+	margin-top: 80px;
+	padding-bottom: 100px;
+	width: 80%;
+	margin: auto;
+}
+
+/*the styling of  information about us*/
+.image_container{
+	height: 100%;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.our_story{
+	height: 400px;
+	margin-bottom: 40px;
+}
+
+/*image of my our story*/
+.our_story img{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	
+}
+	
+
+/*the styling for the text content*/
+.our_story p{
+	height: 100%;
+	width: 50%;
+	padding: 20px;
+	float: right;
+	font-size: 20px;
+	text-align: justify;
+	padding-top: 130px;
+}
+
+.our_mission{
+	height: 400px;
+	margin-bottom: 40px;
+}
+
+.our_mission img{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+}
+
+.mission_container{
+height: 100%;
+	width: 50%;
+	float: right;
+	text-align: center;
+	float: right;
+}
+
+.our_mission p{
+	height: 100%;
+	width: 50%;
+	float: left;
+	font-size: 20px;
+	padding: 20px;
+	text-align: justify;
+	padding-top: 130px;
+}
+
+.our_goals {
+	height: 400px;
+}
+
+.our_goals img{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+}
+.our_goals p{
+	height: 100%;
+	width: 50%;
+	float: right;
+	text-align: justify;
+	font-size: 20px;
+	padding: 130px 40px 0px 20px;
+}

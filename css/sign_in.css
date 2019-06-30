@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+} 
+
+.form_column {
+    width: 47%; 
+    margin: auto;
+    padding: 20px;
+    padding-top: 70px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+/* SING IN */
+.sign_in_form {
+    height: 360px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.sign_in_form form > h2 {
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    color: #363636;
+    text-align: center;
+}
+/*  */
+input[type="email"],input[type="password"] {
+    height: 50px;
+    width: 95%;
+    border: solid 1px #585858;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px ;
+}
+
+input[type="email"]:hover,input[type="password"]:hover {
+    border: solid 3px #1428A0;
+}
+
+/*pointer*/
+input[type="email"]:hover, input[type="password"]:hover, button:hover, a, input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.input_wrapper {
+    width: 100%;
+    height: 100px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 20px 50px;
+    color: #1428A0;
+    font-weight: bolder;
+}
+
+.email {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.password {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.password button {
+    color: #1428A0;
+    background: none;
+    border: none;
+    font-weight: bolder;
+}
+
+#sign_in_btn {
+    background: #1428A0;
+    width: 200px;
+    height: 50px;
+    color: #efefef;
+    border: none;
+    margin: 20px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.sign_in_form p {
+    font-size: 13px;
+    color: #585858;
+    padding: 0px 20px;
+}
+
+
+
+
+/*CREATE NEW ACCOUNT*/
+.create_new_acc {
+    margin-top: 25px;
+    height: 200px;
+    padding: 20px;
+    width: 100%;
+}
+.create_new_acc h2{
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    color: #363636;
+    text-align: center;
+}
+
+.create_new_acc button{
+    background: #1428A0;
+    width: 200px;
+    height: 50px;
+    color: #efefef;
+    border: none;
+    margin: 20px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+/*LOGIN WITH SOCIAL MEDIA*/
+.sign_in_with_sm {
+    margin-top: 25px;
+    height: 150px;
+    width: 100%;
+}
+
+.sign_in_with_sm h2{
+    padding-top: 30px;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    color: #363636;
+    text-align: center;
+}
+
+.sign_in_with_sm div button {
+    height: 50px;
+    margin: 10px;
+    width: 150px;
+    font-size:14px;
+    background: #fff;
+    color: #1428A0;
+    border: none;
+    border-bottom: solid 1px #C6C6C6;
+}
+
+.sign_in_with_sm div button i {
+    margin-right: 5px;
+}
+
+.sign_in_with_sm div button:hover {
+    background: #1E1E1E;
+    color: #efefef;
+}
+
+
+
+/*comments column*/
+.comments_column {
+    font-family: helvetica, sans-serif;
+    width: 50%; 
+    padding: 20px;
+    padding-top: 70px;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.comments_column div {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+
+.comments_column div h3 {
+    padding-top: 30px;
+    font-size: 28px;
+    font-family: 'Cabin', sans-serif;
+    color: #363636;
+    text-align: center;
+}
+
+.comments_column div ul {
+    padding: 15px 0px 0px 0px;
+    color: #686464;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.comments_column div ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding: 24px;
+    margin-top: 15px;
+}
+
+.comments_column div ul li img {
+    height: 100px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+

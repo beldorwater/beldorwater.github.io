@@ -1,0 +1,254 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 0;
+}
+
+.clearfix::after {
+	content: " ";
+	clear: both; 
+	display: block;
+	visibility: none;
+}
+
+hr { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+body {
+    background: #ffffff;
+    padding-top: 80px;
+}
+
+.page_container {
+	max-width: 90%;
+	margin: auto;
+}	
+
+
+/*========================
+Image Slideshow
+=======================*/
+.image_slideshow{
+	height: 70 0px;
+    width: 100%;
+    max-width: 100%;
+	border-bottom: solid 1px #1C3F94;
+}
+
+.image_slideshow img{
+	height: 100%;
+	width: 100%;
+	display: block; 
+}
+
+.image_slideshow a {
+	position: relative;
+	left: 15%;
+	bottom: 120px;
+	height: 50px;
+	width: 10%;
+	text-align: center;
+	font-size: 75%;
+	line-height: 100%; 	
+	border: solid 3px #1C3F94;
+	float: left;
+	color: #efefef;
+	font-weight: bold;
+	border-radius: 25px;
+	padding: 17px; 
+	font-family: 'Open Sans';
+	text-decoration: none;
+}
+
+.image_slideshow a:hover {
+	background: #1C3F94;
+	color: #efefef;
+}
+
+/*========================
+Items Gallery
+=======================*/
+.cases { 
+	margin-top: 100px;	
+	height: 400px;	
+	width: 100%;
+}
+
+.cases h1 { 
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 38px;
+	color: #1C3F94;
+	height: 20%;
+	padding: 10px; 
+
+}
+
+.cases_container{
+	height: 80%;
+	width: 100%
+
+}	
+
+div.cases_pic {
+	float: left;
+	height: 100%;
+	width: calc(100%/3);
+
+}
+
+.cases_pic p {
+	position: relative;
+	bottom: 5px;
+	width: 100%;
+	height: 25%;
+	color: #efefef;
+	background: #1C3F94;
+	font-size: 14px;
+	padding: 15px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	text-align: center;
+}
+
+.p2 {
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+}
+
+.cases_pic img {
+	height: 75%;
+	width: 100%;
+	background: #efefef;
+
+}
+
+.cases_pic img:hover {
+	position: relative;
+	top: 10px;
+}
+
+/*========================
+Article
+=======================*/
+article {
+	margin-top: 100px;	
+	height: 400px;
+	width: 100%;	
+	margin-bottom: 10px;
+}
+
+article h1{
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 38px;
+	color: #1C3F94;
+	height: 135%;
+	max-height: 15%;
+	margin-bottom: 15px;
+}
+
+article div{
+	height: 300px;
+	width: 100%;
+}	
+
+article div img{	
+	float: left;
+	width: 50%;
+	height: 100%
+}
+
+article div img:hover{	
+	position: relative;
+	bottom: 5px;
+	width: 51%;
+	height: 104%;
+}
+
+article div p{	
+	font-family: 'helvetica';
+	text-align: justify;
+	padding: 5%;
+	color: #000000;
+	font-size: 20px;
+	float: right;
+	height: 100%;
+	width: 45%; 
+}
+
+
+/*========================
+Section - We make People Happy
+=======================*/
+.gallery h1{
+	margin-top: 100px;
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 38px;
+	color: #1C3F94;
+	height: 135%;
+	max-height: 15%;
+	margin-bottom: 30px;
+}
+
+.gallery div{
+	height: 450px;
+	width: 100%;
+	border-left: solid 1px #1C3F94; 
+	border-right: solid 1px #1C3F94; 
+}
+
+.div1{
+	border-top: solid 1px #1C3F94; 
+}
+
+.div2{
+	border-bottom: solid 1px #1C3F94; 
+}
+
+.gallery div img{
+	height: 100%;
+	width: 50%;
+}
+
+.gallery div p {
+	height: 100%;
+	width: 50%;
+	color: #dfdfdf;
+	background: #1C3F94;
+	text-align: justify;
+	padding: 12% 5%;
+}
+
+/*===============================
+Article - we're here to help you
+===============================*/
+.help {
+	margin-top: 100px;	
+	height: 300px;
+	width: 100%;	
+	margin-bottom: 10px;
+}
+
+.help h1{
+	font-size: 52px;
+}
+
+.help p{	
+	font-family: 'helvetica';
+	text-align: center;
+	padding: 40px;
+	width: 100%;
+	color: #000000;
+	font-size: 24px;
+
+}
